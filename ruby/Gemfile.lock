@@ -1,0 +1,13 @@
+GEM
+  specs:
+    curb (0.8.1)
+    geoip (1.1.2)
+    json (1.7.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  curb
+  geoip
+  json
