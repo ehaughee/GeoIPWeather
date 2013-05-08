@@ -16,7 +16,7 @@ city   = urllib.quote_plus(record["city"])
 region = urllib.quote_plus(record["region_name"])
 
 # Query Wunderground API
-key = '9c63b3e80a883645'
+key = '' # TODO: get from file
 url = "http://api.wunderground.com/api/" + key + "/conditions/q/" + region + "/" + city + ".json"
 response = json.load(urllib2.urlopen(url))
 
